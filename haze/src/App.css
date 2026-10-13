@@ -1,0 +1,48 @@
+.haze-background {
+  transition: background 500ms ease;
+}
+
+.haze-good {
+  background: linear-gradient(145deg, #effaf3 0%, #f5f8f4 42%, #f2f6f7 100%);
+}
+
+.haze-moderate {
+  background: linear-gradient(145deg, #fff9e8 0%, #f7f6ee 42%, #f2f6f7 100%);
+}
+
+.haze-sensitive {
+  background: linear-gradient(145deg, #fff2e6 0%, #f8f4ef 42%, #f2f6f7 100%);
+}
+
+.haze-unhealthy {
+  background: linear-gradient(145deg, #ffeded 0%, #f8f0f0 42%, #f2f6f7 100%);
+}
+
+.haze-very-unhealthy {
+  background: linear-gradient(145deg, #f5edff 0%, #f5f1f8 42%, #f2f6f7 100%);
+}
+
+.haze-hazardous {
+  background: linear-gradient(145deg, #f8e9ed 0%, #f5eef0 42%, #f2f6f7 100%);
+}
+
+.badge-unhealthy-sensitive {
+  border-color: #f97316;
+  background: #ffedd5;
+  color: #9a3412;
+}
+
+.badge-hazardous {
+  border-color: #7f1d1d;
+  background: #7f1d1d;
+  color: #fff;
+}
+
+[data-theme='dark'] .haze-good,
+[data-theme='dark'] .haze-moderate,
+[data-theme='dark'] .haze-sensitive,
+[data-theme='dark'] .haze-unhealthy,
+[data-theme='dark'] .haze-very-unhealthy,
+[data-theme='dark'] .haze-hazardous {
+  background: linear-gradient(145deg, #182226 0%, #1d1e24 48%, #20232b 100%);
+}
