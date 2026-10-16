@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "haze-malaysia-api",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-15",
+  "workers_dev": true
+}
