@@ -1,0 +1,3 @@
+cd /workspaces/labweb/haze
+npm run build
+npx firebase-tools deploy --only hosting --project haze-75b87
